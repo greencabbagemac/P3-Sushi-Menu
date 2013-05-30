@@ -8,7 +8,11 @@ $(document).ready(function() {
 	
 	$('.dropdown-toggle').dropdown()
 	
+	$('.price').hide();
 	
+	//$('.thumbnail > p').hover(function(){
+		//$('.price').fadeToggle();
+		//});
 	
 	
 	

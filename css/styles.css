@@ -1,14 +1,10 @@
 /*My Styles*/
 
 /*body{
-	background-image: url("img/sushimat.jpg");
-	background-repeat: repeat-x;
-}
-
-#top-section{
-	background-image: url(img/sushimat.jpg);
-}
-*/
+	background-image: url("img/sushimat.jpg"); 
+	background-color: #FF9D67;
+	
+}*/
 
 
 .navbar{
@@ -38,3 +34,4 @@
 hr{
 	margin: 0px;
 }
+

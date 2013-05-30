@@ -1,22 +1,16 @@
 /*My Styles*/
 
-#menu-list > li {
-	display: inline;
-	padding: 5px;
-	margin: 0px 20px 0px 19px;
-	}
-
-#menu-list{
-	position: absolute;
-	top: 60px;
-	right: 28px;
-	margin: 10px;
-	width: 534px;
-	padding: 13px;
-	background: blue;
-	border-radius: 0px;
+/*body{
+	background-image: url("img/sushimat.jpg");
+	background-repeat: repeat-x;
 }
-	
+
+#top-section{
+	background-image: url(img/sushimat.jpg);
+}
+*/
+
+
 .navbar{
 	position: absolute;
 	top: 10px;
@@ -39,6 +33,7 @@
 	background: red;
 	color: white;
 }
+
 
 hr{
 	margin: 0px;

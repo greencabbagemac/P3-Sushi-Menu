@@ -6,4 +6,11 @@ $(document).ready(function() {
 		$('#menu-list').toggle();
 	});
 	
-	});
+	$('.dropdown-toggle').dropdown()
+	
+	
+	
+	
+	
+	
+});

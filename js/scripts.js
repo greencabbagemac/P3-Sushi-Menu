@@ -10,14 +10,15 @@ $(document).ready(function() {
 	
 	$('.price').hide();
 	
-	//$('.thumbnail > p').hover(function(){
-		//$('.price').fadeToggle();
-		//});
+	$('.thumbnail').hover(function() {
+		$('.price').toggle(1000);
+		});
+	
 	$('#slick-hide-raw').click(function() {
 		$('.veg').hide('slow');
 		$('.spicy').hide('slow');
 		$('.reg').hide('slow');
-		$('.raw').show('fast');
+		$('.raw').fadeIn(500);
 		return false;
 	});
 	
@@ -25,7 +26,7 @@ $(document).ready(function() {
 		$('.spicy').hide('slow');
 		$('.reg').hide('slow');
 		$('.raw').hide('slow');
-		$('.veg').show('fast');
+		$('.veg').fadeIn(500);
 
 		return false;
 	});
@@ -34,8 +35,10 @@ $(document).ready(function() {
 		$('.veg').hide('slow');
 		$('.reg').hide('slow');
 		$('.raw').hide('slow');
-		$('.spicy').show('fast');		
+		$('.spicy').fadeIn(500);		
 		return false;
 	});
+	
+	
 	
 });
